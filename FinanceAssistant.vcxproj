@@ -20,13 +20,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BMOParser.cpp" />
+    <ClCompile Include="Card.cpp" />
     <ClCompile Include="DataManager.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="TDParser.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BMOParser.h" />
+    <ClInclude Include="Card.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="DataManager.h" />
@@ -34,6 +37,7 @@
     <ClInclude Include="Parser.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TDParser.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

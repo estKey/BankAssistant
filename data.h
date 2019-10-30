@@ -18,7 +18,7 @@ public:
 	Date(unsigned short day, unsigned short month, unsigned long long year) :day(day), month(month), year(year) {};
 	Date(string date)
 	{
-		/*WIP*/
+
 	};
 	Date(const Date &d) :day(d.day), month(d.month), year(d.year) {};
 };
